@@ -32,6 +32,15 @@
 		-Id
 		-Name
 		-Description
+		-CreatedAt
+		-UpdatedAt
+		-CreatedBy
+		-Updatedby
+
+	GameTypeUser
+		-Id
+		-GameTypeId
+		-UserId
 
 	-GameBet
 		-Id
