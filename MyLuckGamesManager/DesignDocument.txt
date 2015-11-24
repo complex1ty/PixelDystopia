@@ -1,6 +1,50 @@
 -> Principais Objectivos
 
+	- Track dos diferentes jogos de Azar.
+	- Analise de Custos e Gastos
+	- Estatisticas
 
 -> Drill Down de features
 
+	- Criar Diferentes tipos de Jogos em Backoffice
+	- Inserir Jogos
+		- Data Jogo
+		- Tipo Jogo
+		- Custo
+		- Ganho
+		- Chave (se aplicável)
+	- Gráficos
+		- Análise geral de resultados
+		- Análise individual por concurso
+
+-> Arquitectura de Espaces
+		- FontOffice
+		- BackOffice
+		- DataModel
+		- SharedComponents (webblocks e afins)
+		- SilkUI
+
 -> Modelo de Dados
+
+	-User (Default Outsystems)
+
+	-GameType
+		-Id
+		-Name
+		-Description
+
+	-GameBet
+		-Id
+		-GameTypeId
+		-BetPlaced
+		-BetPrice
+		-UserId
+		-CreatedAt
+		-UpdatedAt
+		-Createdby
+		-Updatedby
+
+	-GameBetUser
+		-Id
+		-UserId
+		-BetId
