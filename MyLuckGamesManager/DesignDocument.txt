@@ -47,7 +47,6 @@
 		-GameTypeId
 		-BetPlaced
 		-BetPrice
-		-UserId
 		-CreatedAt
 		-UpdatedAt
 		-Createdby
